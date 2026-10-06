@@ -221,13 +221,6 @@ with st.sidebar:
     """, unsafe_allow_html=True)
 
     st.markdown("---")
-    st.subheader("📚 Recursos & Prácticas")
-    st.markdown("Accede al portal oficial con guías didácticas, ejercicios prácticos y material formativo paso a paso:")
-    st.link_button("🌐 Abrir Portal de Ejercicios",
-                   "https://sites.google.com/view/aplicacionesdeia/inicio",
-                   use_container_width=True)
-
-    st.markdown("---")
     st.subheader("🧠 Temas del portafolio")
     st.markdown("""
     <div style="display:flex; flex-wrap:wrap; gap:4px;">
@@ -366,12 +359,7 @@ else:
 st.markdown("""
 <div class="portfolio-footer">
     <p><b>Portafolio de Proyectos de Machine Learning</b> • Desarrollado con Streamlit & Python</p>
-    <p style="font-size:0.8rem; margin-top:4px;">
-        Descubre más proyectos, tutoriales y documentación en el
-        <a href="https://sites.google.com/view/aplicacionesdeia/inicio" target="_blank"
-           style="color:#2563eb; text-decoration:none; font-weight:600;">
-           Portal de Aplicaciones de IA
-        </a>
+
     </p>
 </div>
 """, unsafe_allow_html=True)
