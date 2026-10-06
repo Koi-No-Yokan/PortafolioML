@@ -359,7 +359,5 @@ else:
 st.markdown("""
 <div class="portfolio-footer">
     <p><b>Portafolio de Proyectos de Machine Learning</b> • Desarrollado con Streamlit & Python</p>
-
-    </p>
 </div>
 """, unsafe_allow_html=True)
